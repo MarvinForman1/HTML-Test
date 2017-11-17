@@ -1,0 +1,116 @@
+head {
+
+}
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #141414;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #0F0F0F;
+}
+
+.active {
+    background-color: #0C0C0C;
+}
+
+body{
+  background-color: #1C1C1C;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  text-align: center;
+  line-height: 1;
+  color: white;
+}
+
+div,span:hover {
+    width: 27%;
+    height: 60px;
+}
+div,span {
+  transition: height 1s, width 1s;
+  text-align: center;
+  width: 25%;
+  height: 50px;
+  display: inline-block;
+  background-color: #0F0F0F;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+div,span a {
+  line-height: 3;
+}
+
+div,span a:hover {
+
+}
+
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+color:transparent;
+-webkit-background-clip: text;
+background-clip: text;
+}
+
+.dropbtn {
+    background-color: #141414;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0F0F0F;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #1C1C1F}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #0F0F0F;
+}
