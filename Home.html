@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+  <link rel="stylesheet" href="c.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <style>
+.anim {
+    width: auto;
+    height: auto;
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: text;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes text {
+    0%   {color:red; left:0px; top:0px;}
+    25%  {color:yellow; left:200px; top:0px;}
+    50%  {color:blue; left:200px; top:200px;}
+    75%  {color:green; left:0px; top:200px;}
+    100% {color:red; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes text {
+    0%   {color:red; left:0%; top:0%;}
+    25%  {color:yellow; left:50%; top:0%;}
+    50%  {color:blue; left:50%; top:500%%;}
+    75%  {color:green; left:0%; top:500%;}
+    100% {color:red; left:0%; top:0%;}
+}
+
+.anim2 {
+      width: auto;
+      height: auto;
+      position: relative;
+      -webkit-animation-name: text1; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+      -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+      animation-name: text1;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+  }
+
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes text1 {
+      0%   {color:red;}
+      25%  {color:yellow;}
+      50%  {color:blue;}
+      75%  {color:green;}
+      100% {color:red}
+  }
+
+  /* Standard syntax */
+  @keyframes text1 {
+      0%   {color:red;}
+      25%  {color:yellow;}
+      50%  {color:blue;}
+      75%  {color:green;}
+      100% {color:red;}
+  }
+}
+</style>
+</head>
+<body>
+
+  <ul>
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="Tools.html">Tools</a></li>
+    <li><a href="Media.html">Media</a></li>
+    <li><a href="Pong.html">Pong</a></li>
+    <li><a href="About.html">About</a></li>
+  </ul>
+  <div class="anim">
+    <p class="anim2" style="width: 500px;"> This is a personal site made by and for Marvin Forman and everyone he distributes it to.</p>
+  </div>
+</body>
+</html>

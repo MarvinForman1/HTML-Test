@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About</title>
+  <link rel="stylesheet" href="c.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <style>
+  .anim {
+      width: auto;
+      height: auto;
+      position: relative;
+      -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+      -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+      animation-name: text;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+  }
+
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes text {
+      0%   {color:red;}
+      25%  {color:yellow;}
+      50%  {color:blue;}
+      75%  {color:green;}
+      100% {color:red;}
+  }
+
+  /* Standard syntax */
+  @keyframes text {
+      0%   {color:red;}
+      25%  {color:yellow;}
+      50%  {color:blue;}
+      75%  {color:green;}
+      100% {color:red;}
+  }
+  </style>
+</head>
+<body>
+
+  <ul>
+    <li><a href="Home.html">Home</a></li>
+    <li><a href="Tools.html">Tools</a></li>
+    <li><a href="Media.html">Media</a></li>
+    <li><a href="Pong.html">Pong</a></li>
+    <li><a class="active" href="#">About</a></li>
+  </ul>
+  <br><br><br><br>
+  <center>
+    <div>
+      <h3 class="anim">There really isn't much to say... I got bored.</h3>
+    </div>
+  </center>
+  <div class="anim"style="left: 1350px; top: 250px; background-color: transparent;">
+    <i class="fa fa-btc fa-spin" style="font-size: 128px;"></i>
+  </div>
+  <center>
+  <div class="anim"style="top: 110px; background-color: transparent;">
+    <i class="fa fa-empire fa-spin" style="font-size: 128px;"></i>
+  </div>
+  </center>
+
+  <div class="anim"style="left: 100px; top: -20px; background-color: transparent;">
+    <i class="material-icons" style="font-size: 128px;">location_city</i>
+  </div>
+
+</body>
+</html>
